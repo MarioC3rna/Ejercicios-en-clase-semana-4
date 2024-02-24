@@ -32,12 +32,22 @@
 //Console.WriteLine($"La suma de los números ingresados es: {suma}");
 
 
-Console.WriteLine("El primer numero entero positivo divisible entre 7 y 11/n"); int n = 1;
-while (true)
+//Console.WriteLine("El primer numero entero positivo divisible entre 7 y 11/n"); int n = 1;
+//while (true)
+//{
+//    if (n % 7 == 0 && n % 11 == 0)
+//    {
+//        Console.WriteLine($"El primer número entero positivo divisible entre 7 y 11 es: {n}"); break;
+//    }
+//    n++;
+//}
+
+
+Console.WriteLine("ENUNCIADO #3 /n"); Console.WriteLine("En busca de la contrasenia");
+string contra = "jutiapa"; string ingresoUsuario;
+do
 {
-    if (n % 7 == 0 && n % 11 == 0)
-    {
-        Console.WriteLine($"El primer número entero positivo divisible entre 7 y 11 es: {n}"); break;
-    }
-    n++;
-}
+    Console.WriteLine("Ingrese la contra");
+    ingresoUsuario = Console.ReadLine();
+} while (ingresoUsuario != contra);
+Console.WriteLine("CONTRA CORRECTA"); 
