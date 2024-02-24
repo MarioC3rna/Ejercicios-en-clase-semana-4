@@ -18,3 +18,16 @@
 
 //Console.WriteLine($"La suma es :" + re);
 
+
+//Console.WriteLine("HASTA ENCONTRAR EL NEGATIVO Y SU SUMA/n");
+//int suma = 0; int numero;
+//do
+//{
+//    Console.Write("Ingrese un número: "); numero = Convert.ToInt32(Console.ReadLine());
+//    if (numero >= 0)
+//    {
+//        suma += numero;
+//    }
+//} while (numero >= 0);
+//Console.WriteLine($"La suma de los números ingresados es: {suma}");
+
