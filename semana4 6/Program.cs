@@ -11,7 +11,7 @@ while (x <= 10)
 
 Console.WriteLine("Suma de numeros naturales");
 int re = 0;
-for (int x= 1; x <=10; x++) 
+for (int x = 1; x <=10; x++) 
 {
    re +=x;
 }
@@ -74,17 +74,4 @@ do
     }
 } while (intento != numeroAleatorio);
 
-Console.WriteLine(" Encontraste el numero " + numeroAleatorio + "!"); 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    Console.WriteLine(" Encontraste el numero " + numeroAleatorio + "!")
